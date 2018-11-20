@@ -55,14 +55,14 @@ def validateIP(line):
 	IP = []
 	params = []
 	if line != '\n':
-		params = re.findall("\s*(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})\suser\s*=\s*(.+)\s+passwd\s*=([^\s]+)",line)
+		params = re.findall("\s*host\s*=\s*([^\s]+|\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})\suser\s*=\s*(.+)\s+passwd\s*=([^\s]+)",line)
 	
 		if params != []:
 			IP.append(params[0][0])
 			IP.append(params[0][1])
 			IP.append(params[0][2])
 		else:
-			ipaddr = re.findall("(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})",line)
+			ipaddr = re.findall("\s*host\s*=\s*([^\s]+|\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})",line)
 			if ipaddr == []:
 				print "WARNING : COULD NOT FIND A VALID IP IN LINE"
 			else:
