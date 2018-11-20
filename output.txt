@@ -1,0 +1,24 @@
+
+
+	IP ADDRESS OF THE HOST:192.168.218.157
+	COMMAND EXECUTED :"df -h"
+Filesystem                       Size  Used Avail Use% Mounted on
+/dev/sda2                        2.0G   80M  1.8G   5% /
+devtmpfs                          40G     0   40G   0% /dev
+tmpfs                             40G     0   40G   0% /dev/shm
+tmpfs                             40G  896K   40G   1% /run
+tmpfs                             40G     0   40G   0% /sys/fs/cgroup
+/dev/sda7                        1.5G  947M  441M  69% /usr
+/dev/sda1                        240M   80M  144M  36% /boot
+/dev/sda6                        2.0G   70M  1.8G   4% /var
+/dev/sda5                        2.0G  6.1M  1.8G   1% /tmp
+/dev/mapper/vg01-usr_local_etc   976M  2.7M  907M   1% /usr/local/etc
+/dev/mapper/vg01-DGtmp            20G   72M   19G   1% /DGtmp
+/dev/mapper/vg01-var_lib_docker   20G   47M   19G   1% /var/lib/docker
+/dev/mapper/vg01-home            9.8G   43M  9.2G   1% /home
+/dev/mapper/vg01-var_log         9.8G  241M  9.0G   3% /var/log
+/dev/mapper/vg01-Database        976M  2.6M  907M   1% /Database
+/dev/mapper/vg01-DGlogs          9.8G   37M  9.2G   1% /DGlogs
+/dev/mapper/vg01-DGdata          197G  568M  187G   1% /DGdata
+/dev/mapper/vg01-var_log_audit   9.8G   73M  9.2G   1% /var/log/audit
+tmpfs                            7.9G     0  7.9G   0% /run/user/502
